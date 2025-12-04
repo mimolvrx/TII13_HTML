@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trabalhando com mídias</title>
+</head>
+
+<body>
+    <h1>Inserindo aúdio e vídeos</h1>
+    <p>Para inserir uma musica MP3 em sua página web, o arquivo precisa estar em uma 
+    pasta junto com raiz do site. Como é o caso da pasta mídia.</p>
+    <audio controls> 
+        <source src="midia2.html/metalica_nothing.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <br>
+    <section>
+        <p>Veja o vídeo a seguir:</p>
+        <video controls>
+            <source src="midia2.html/london.mp4" type="video/mp4">
+        </video>
+        <br>
+        <br>
+         <video controls>
+            <source src="midia2.html/pink-floyd.mp4" type="video/mp4">
+            <track kind="subtitles" srclang="pt-br" src="midia2.html/legenda-ptbr.vtt" label="Português Brasil" default>
+
+            <track kind="subtitles" srclang="en" src="midia2.html/legenda-en.vtt" label="Inglês">
+        </video>
+    </section>
+    <section>
+        <p>Existe outra forma de inserir o vídeo, sem ter o arquivo. Por meio do site do <b>Youtube</b></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2Xc-Yll4xc0?si=XylD7wi-CdVvHHtH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+</body>
+
+</html>
